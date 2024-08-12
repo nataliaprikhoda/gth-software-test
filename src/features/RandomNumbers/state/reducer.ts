@@ -12,9 +12,12 @@ export const randomNumbersSlice = createSlice({
       addNumber: (state, { payload: newNumber }: PayloadAction<number>) => {
         state.allNumbers.push(newNumber)
       },
+      resetStore: (state) => {
+        state.allNumbers = []
+      },
     }
   });
 
-  export const { addNumber } = randomNumbersSlice.actions;
+  export const { addNumber, resetStore } = randomNumbersSlice.actions;
 
   export default randomNumbersSlice.reducer;

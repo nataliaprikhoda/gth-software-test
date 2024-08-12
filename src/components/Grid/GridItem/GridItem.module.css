@@ -1,0 +1,14 @@
+.item {
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, sans-serif;
+}
+
+.content {
+    flex-grow:1
+}
+
+.title {
+    margin: 0;
+    margin-bottom: 16px
+}

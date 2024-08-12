@@ -1,0 +1,12 @@
+.board {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: #0b7f50;
+  font-size: 60px;
+  margin: 0;
+  color: #ffd500;
+  width: 300px;
+  height: 300px;
+}
